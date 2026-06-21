@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 7492240dec5b9f043926305537c08136
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5918465037225657447
+    second: nutri_0
+  - first:
+      213: -6018680817478987796
+    second: nutri_1
+  - first:
+      213: 4896837462627752927
+    second: nutri_2
+  - first:
+      213: -1807075222902240083
+    second: nutri_3
+  - first:
+      213: 2067876917122661479
+    second: nutri_4
+  - first:
+      213: -3443599202500487967
+    second: nutri_5
+  - first:
+      213: -1757807577329535134
+    second: nutri_6
+  - first:
+      213: -8262486272678087235
+    second: nutri_7
+  - first:
+      213: -3682736245452679114
+    second: nutri_8
+  - first:
+      213: 6280569875116241193
+    second: nutri_9
+  - first:
+      213: 4987649874270448324
+    second: nutri_10
+  - first:
+      213: 1336083284651582339
+    second: nutri_11
+  - first:
+      213: 6821574985186492671
+    second: nutri_12
+  - first:
+      213: 9135743974421562055
+    second: nutri_13
+  - first:
+      213: 1921433232726898089
+    second: nutri_14
+  - first:
+      213: 3396708721750706465
+    second: nutri_15
+  - first:
+      213: -4573911212120657927
+    second: nutri_16
+  - first:
+      213: -3339415634160320447
+    second: nutri_17
+  - first:
+      213: -4078910327727288781
+    second: nutri_18
+  - first:
+      213: -8403332424761061503
+    second: nutri_19
+  - first:
+      213: 6572393676962286184
+    second: nutri_20
+  - first:
+      213: -5656303011804929969
+    second: nutri_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nutri_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 877
+        width: 294
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b7890f7636ddda0800000000000000
+      internalID: -5918465037225657447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_1
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 643
+        width: 450
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef05b15fa9597ca0800000000000000
+      internalID: -6018680817478987796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_2
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 642
+        width: 450
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb90ca4abf05f340800000000000000
+      internalID: 4896837462627752927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_3
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 647
+        width: 450
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac8088b8aafbe6e0800000000000000
+      internalID: -1807075222902240083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_4
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 642
+        width: 450
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c735c991392bc10800000000000000
+      internalID: 2067876917122661479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_5
+      rect:
+        serializedVersion: 2
+        x: 2453
+        y: 637
+        width: 450
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4d32235c0e530d0800000000000000
+      internalID: -3443599202500487967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_6
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 642
+        width: 450
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26778c952530b97e0800000000000000
+      internalID: -1757807577329535134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_7
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 651
+        width: 138
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db53b73f280c55d80800000000000000
+      internalID: -8262486272678087235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 411
+        width: 1619
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638565095ea44ecc0800000000000000
+      internalID: -3682736245452679114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_9
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 330
+        width: 272
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921b2598601192750800000000000000
+      internalID: 6280569875116241193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_10
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 330
+        width: 435
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca69eb8221b73540800000000000000
+      internalID: 4987649874270448324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_11
+      rect:
+        serializedVersion: 2
+        x: 2813
+        y: 249
+        width: 259
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383aef32ba8ba8210800000000000000
+      internalID: 1336083284651582339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_12
+      rect:
+        serializedVersion: 2
+        x: 3111
+        y: 249
+        width: 259
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff04bb88e4a1bae50800000000000000
+      internalID: 6821574985186492671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_13
+      rect:
+        serializedVersion: 2
+        x: 3418
+        y: 249
+        width: 258
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c20052ddbea8ce70800000000000000
+      internalID: 9135743974421562055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_14
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 180
+        width: 813
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a53150585d4aaa10800000000000000
+      internalID: 1921433232726898089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_15
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 189
+        width: 84
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1290c6df598832f20800000000000000
+      internalID: 3396708721750706465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_16
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 189
+        width: 84
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff2f577cf33680c0800000000000000
+      internalID: -4573911212120657927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_17
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 189
+        width: 84
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1400d787c2308a1d0800000000000000
+      internalID: -3339415634160320447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_18
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 3
+        width: 450
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e842dfaacc467c0800000000000000
+      internalID: -4078910327727288781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_19
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 198
+        width: 272
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f4894bead516b80800000000000000
+      internalID: -8403332424761061503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_20
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 198
+        width: 435
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a4c572a35d53b50800000000000000
+      internalID: 6572393676962286184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nutri_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 30
+        width: 610
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40256f0166c081b0800000000000000
+      internalID: -5656303011804929969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nutri_0: -5918465037225657447
+      nutri_1: -6018680817478987796
+      nutri_10: 4987649874270448324
+      nutri_11: 1336083284651582339
+      nutri_12: 6821574985186492671
+      nutri_13: 9135743974421562055
+      nutri_14: 1921433232726898089
+      nutri_15: 3396708721750706465
+      nutri_16: -4573911212120657927
+      nutri_17: -3339415634160320447
+      nutri_18: -4078910327727288781
+      nutri_19: -8403332424761061503
+      nutri_2: 4896837462627752927
+      nutri_20: 6572393676962286184
+      nutri_21: -5656303011804929969
+      nutri_3: -1807075222902240083
+      nutri_4: 2067876917122661479
+      nutri_5: -3443599202500487967
+      nutri_6: -1757807577329535134
+      nutri_7: -8262486272678087235
+      nutri_8: -3682736245452679114
+      nutri_9: 6280569875116241193
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
