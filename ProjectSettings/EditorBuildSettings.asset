@@ -8,6 +8,30 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/quizz1.unity
+    guid: e2d71f065f9230d44bb526c359954536
+  - enabled: 1
+    path: Assets/Scenes/notaFinal.unity
+    guid: 5348b84e923e9444f90baee5d7ea6ac8
+  - enabled: 1
+    path: Assets/Scenes/3 x 3.unity
+    guid: 8b826923538a4b6469302a619e37ec55
+  - enabled: 1
+    path: Assets/Scenes/Modo educativo.unity
+    guid: 03469cf0bebae7142a809dafe61bdfd4
+  - enabled: 1
+    path: "Assets/Scenes/Modo L\xFAdico.unity"
+    guid: 31f373790c56db844bd68b73d47a6bc1
+  - enabled: 1
+    path: Assets/Scenes/niveis puzzle.unity
+    guid: 4c2beef4a290f5e4ba8864524dca584e
+  - enabled: 1
+    path: Assets/Scenes/quizzmenu.unity
+    guid: 8331870b2956d0a44afc04da3e55e9a1
+  - enabled: 1
+    path: Assets/Scenes/roda dos alimentos.unity
+    guid: 292c97ad49e80724fa7fdf2e6b698cb7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
