@@ -25,6 +25,7 @@ public class responder : MonoBehaviour
     private float acertos;
     private float questoes;
     private float media;
+    private int notaFinal;    
 
     
     void Start()
@@ -86,14 +87,21 @@ public class responder : MonoBehaviour
         respostaC.text = alternativaC[idPergunta];
         respostaD.text = alternativaD[idPergunta];
 
-        infoRespostas.text = "Respondendo " + (idPergunta + 1).ToString() + " de " + questoes.ToString() + " perguntas.";
+        infoRespostas.text = "Pergunta " + (idPergunta + 1).ToString() + " de " + questoes.ToString() + ".";
     }
     else
     {
+    
+            // Exibe o total de acertos (por exemplo, no Console ou em algum campo de texto)
+          Debug.Log("Total de acertos: " + acertos);
 
-        SceneManager.LoadScene("notaFinal");
+            // Se você precisar apenas guardar o resultado atual desta sessão (sem comparar com tentativas anteriores)
+         PlayerPrefs.SetInt("acertosUltimaPartida", (int)acertos);
 
-    }
+            // Carrega a cena de resultado
+            SceneManager.LoadScene("notaFinal");
+
+        }
 
     }
 }

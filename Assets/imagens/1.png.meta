@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-guid: cd7ffb3b320b5be489993a0c27898c05
+guid: 40aeba4649c89834db751572fb3650d6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4139819002470467213
-    second: estrela (1)_0
+      213: -855298285791758126
+    second: 1_0
   - first:
-      213: 1604453791343030235
-    second: estrela (1)_1
+      213: 9180251791023625898
+    second: 1_1
   - first:
-      213: -8906322604878397349
-    second: estrela (1)_2
-  - first:
-      213: -687542834437981448
-    second: estrela (1)_3
-  - first:
-      213: -8209863778254158488
-    second: estrela (1)_4
+      213: -549789443665989942
+    second: 1_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -125,13 +119,35 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: estrela (1)_0
+      name: 1_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 112
+        width: 338
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8b16a9dbe5124f0800000000000000
+      internalID: -855298285791758126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 400
-        width: 112
-        height: 112
+        y: 1
+        width: 337
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,86 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 379f55b0d886c86c0800000000000000
-      internalID: -4139819002470467213
+      spriteID: aa65b986d5ec66f70800000000000000
+      internalID: 9180251791023625898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: estrela (1)_1
+      name: 1_2
       rect:
         serializedVersion: 2
-        x: 57
-        y: 41
-        width: 413
-        height: 413
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bdfa783f83a244610800000000000000
-      internalID: 1604453791343030235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: estrela (1)_2
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 416
-        width: 80
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b50013157c2666480800000000000000
-      internalID: -8906322604878397349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: estrela (1)_3
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 39
-        width: 81
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8fa75715f6b5576f0800000000000000
-      internalID: -687542834437981448
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: estrela (1)_4
-      rect:
-        serializedVersion: 2
-        x: 376
+        x: 358
         y: 0
-        width: 113
-        height: 112
+        width: 185
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86580d23464b01e80800000000000000
-      internalID: -8209863778254158488
+      spriteID: ace6705f961ce58f0800000000000000
+      internalID: -549789443665989942
       vertices: []
       indices: 
       edges: []
@@ -238,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -248,11 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      estrela (1)_0: -4139819002470467213
-      estrela (1)_1: 1604453791343030235
-      estrela (1)_2: -8906322604878397349
-      estrela (1)_3: -687542834437981448
-      estrela (1)_4: -8209863778254158488
+      1_0: -855298285791758126
+      1_1: 9180251791023625898
+      1_2: -549789443665989942
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
