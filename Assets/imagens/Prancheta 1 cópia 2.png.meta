@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: e7458fd69d6e1f44c81fd56c9a0456dd
+guid: 7c3b72343a3fac0478ea2b75aa7125fc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7576432827434243880
-    second: balancas_0
+      213: 2051172999786608920
+    second: "Prancheta 1 c\xF3pia 2_0"
   - first:
-      213: 4706931705679055568
-    second: balancas_1
+      213: 3992624090647722860
+    second: "Prancheta 1 c\xF3pia 2_1"
   - first:
-      213: -1659722162270332623
-    second: balancas_2
+      213: -247146575596511264
+    second: "Prancheta 1 c\xF3pia 2_2"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: balancas_0
+      name: "Prancheta 1 c\xF3pia 2_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 106
-        width: 182
-        height: 284
+        x: 72
+        y: 63
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82793dfc385e42960800000000000000
-      internalID: 7576432827434243880
+      spriteID: 8193729c9fa377c10800000000000000
+      internalID: 2051172999786608920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: balancas_1
+      name: "Prancheta 1 c\xF3pia 2_1"
       rect:
         serializedVersion: 2
-        x: 40
-        y: 0
-        width: 432
-        height: 512
+        x: 106
+        y: 63
+        width: 25
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0da060ba271625140800000000000000
-      internalID: 4706931705679055568
+      spriteID: c6b79b4e476a86730800000000000000
+      internalID: 3992624090647722860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: balancas_2
+      name: "Prancheta 1 c\xF3pia 2_2"
       rect:
         serializedVersion: 2
-        x: 330
-        y: 106
-        width: 182
-        height: 284
+        x: 147
+        y: 62
+        width: 113
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 139980cac7b77f8e0800000000000000
-      internalID: -1659722162270332623
+      spriteID: 0ef9d1abf75f19cf0800000000000000
+      internalID: -247146575596511264
       vertices: []
       indices: 
       edges: []
@@ -198,9 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      balancas_0: 7576432827434243880
-      balancas_1: 4706931705679055568
-      balancas_2: -1659722162270332623
+      "Prancheta 1 c\xF3pia 2_0": 2051172999786608920
+      "Prancheta 1 c\xF3pia 2_1": 3992624090647722860
+      "Prancheta 1 c\xF3pia 2_2": -247146575596511264
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,16 +1,13 @@
 fileFormatVersion: 2
-guid: e7458fd69d6e1f44c81fd56c9a0456dd
+guid: 0719c2fcfc51338478616ad3bc133c8e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7576432827434243880
-    second: balancas_0
+      213: 3115846574341437563
+    second: boxes alimentares_0
   - first:
-      213: 4706931705679055568
-    second: balancas_1
-  - first:
-      213: -1659722162270332623
-    second: balancas_2
+      213: 3026441881296950923
+    second: boxes alimentares_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -119,35 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: balancas_0
+      name: boxes alimentares_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 106
-        width: 182
-        height: 284
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 82793dfc385e42960800000000000000
-      internalID: 7576432827434243880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: balancas_1
-      rect:
-        serializedVersion: 2
-        x: 40
         y: 0
-        width: 432
-        height: 512
+        width: 1164
+        height: 825
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0da060ba271625140800000000000000
-      internalID: 4706931705679055568
+      spriteID: b783d3e63f5bd3b20800000000000000
+      internalID: 3115846574341437563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: balancas_2
+      name: boxes alimentares_1
       rect:
         serializedVersion: 2
-        x: 330
-        y: 106
-        width: 182
-        height: 284
+        x: 1527
+        y: 3
+        width: 1164
+        height: 824
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 139980cac7b77f8e0800000000000000
-      internalID: -1659722162270332623
+      spriteID: b86d1143bd4100a20800000000000000
+      internalID: 3026441881296950923
       vertices: []
       indices: 
       edges: []
@@ -188,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -198,9 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      balancas_0: 7576432827434243880
-      balancas_1: 4706931705679055568
-      balancas_2: -1659722162270332623
+      boxes alimentares_0: 3115846574341437563
+      boxes alimentares_1: 3026441881296950923
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
