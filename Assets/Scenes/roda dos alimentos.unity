@@ -153,7 +153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 293.56848, y: 137.61401}
+  m_AnchoredPosition: {x: 318.32825, y: 165.44006}
   m_SizeDelta: {x: 343.62, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &53277252
@@ -276,14 +276,14 @@ MonoBehaviour:
   targetText: {fileID: 53277252}
   targetTexts:
   - {fileID: 772220583}
-  - {fileID: 1885982833}
+  - {fileID: 0}
   - {fileID: 0}
   targetImages:
   - {fileID: 366208511}
-  - {fileID: 1115068606}
-  - {fileID: 2016578819}
-  - {fileID: 1338964105}
-  - {fileID: 1393204604}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   optionButtons: []
   conjuntos:
   - texto: Clique numa fatia!
@@ -312,16 +312,16 @@ MonoBehaviour:
   textosVisiveis:
   - {fileID: 53277252}
   - {fileID: 772220583}
-  - {fileID: 1885982833}
+  - {fileID: 0}
   textosInvisiveis: []
   imagensVisiveis:
   - {fileID: 366208511}
-  - {fileID: 1115068606}
-  - {fileID: 2016578819}
-  - {fileID: 1338964105}
-  - {fileID: 1393204604}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   imagensInvisiveis: []
-  botoes: []
+  botoesFatias: []
   buscarBotoesAutomaticamente: 1
   conteudos:
   - textosVisiveis:
@@ -337,6 +337,7 @@ MonoBehaviour:
     imagensInvisiveis: []
   botaoContinuar: {fileID: 0}
   cenaDestino: 
+  fatiasNecessarias: 8
   aplicarAoIniciar: 0
   conteudoInicial: 0
 --- !u!1 &366208509
@@ -373,7 +374,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 293.56848, y: 62.487}
+  m_AnchoredPosition: {x: 318.32825, y: 90.93973}
   m_SizeDelta: {x: 77.3917, y: 80.883}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &366208511
@@ -439,16 +440,16 @@ MonoBehaviour:
   textosVisiveis:
   - {fileID: 53277252}
   - {fileID: 772220583}
-  - {fileID: 1885982833}
+  - {fileID: 0}
   textosInvisiveis: []
   imagensVisiveis:
   - {fileID: 366208511}
-  - {fileID: 1115068606}
-  - {fileID: 2016578819}
-  - {fileID: 1338964105}
-  - {fileID: 1393204604}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   imagensInvisiveis: []
-  botoes: []
+  botoesFatias: []
   buscarBotoesAutomaticamente: 1
   conteudos:
   - textosVisiveis:
@@ -465,6 +466,7 @@ MonoBehaviour:
     imagensInvisiveis: []
   botaoContinuar: {fileID: 0}
   cenaDestino: 
+  fatiasNecessarias: 8
   aplicarAoIniciar: 0
   conteudoInicial: 0
 --- !u!1 &519420028
@@ -775,7 +777,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 299.37592, y: -27.13063}
+  m_AnchoredPosition: {x: 318.32825, y: -16.639175}
   m_SizeDelta: {x: 343.62, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &772220583
@@ -898,16 +900,16 @@ MonoBehaviour:
   textosVisiveis:
   - {fileID: 53277252}
   - {fileID: 772220583}
-  - {fileID: 1885982833}
+  - {fileID: 0}
   textosInvisiveis: []
   imagensVisiveis:
   - {fileID: 366208511}
-  - {fileID: 1115068606}
-  - {fileID: 2016578819}
-  - {fileID: 1338964105}
-  - {fileID: 1393204604}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   imagensInvisiveis: []
-  botoes: []
+  botoesFatias: []
   buscarBotoesAutomaticamente: 1
   conteudos:
   - textosVisiveis:
@@ -924,6 +926,7 @@ MonoBehaviour:
     imagensInvisiveis: []
   botaoContinuar: {fileID: 0}
   cenaDestino: 
+  fatiasNecessarias: 8
   aplicarAoIniciar: 0
   conteudoInicial: 0
 --- !u!1 &847033800
@@ -1093,7 +1096,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1604375429}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1498,15 +1501,6 @@ PrefabInstance:
     - {fileID: 4513843504305901138, guid: 641164259b813d34294850d53c142537, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2842250536631221379, guid: 641164259b813d34294850d53c142537, type: 3}
-      insertIndex: 3
-      addedObject: {fileID: 1622113601}
-    - targetCorrespondingSourceObject: {fileID: 2842250536631221379, guid: 641164259b813d34294850d53c142537, type: 3}
-      insertIndex: 6
-      addedObject: {fileID: 1604375429}
-    - targetCorrespondingSourceObject: {fileID: 2842250536631221379, guid: 641164259b813d34294850d53c142537, type: 3}
-      insertIndex: 7
-      addedObject: {fileID: 1846089421}
-    - targetCorrespondingSourceObject: {fileID: 2842250536631221379, guid: 641164259b813d34294850d53c142537, type: 3}
       insertIndex: -1
       addedObject: {fileID: 847033801}
     - targetCorrespondingSourceObject: {fileID: 2842250536631221379, guid: 641164259b813d34294850d53c142537, type: 3}
@@ -1517,22 +1511,7 @@ PrefabInstance:
       addedObject: {fileID: 772220582}
     - targetCorrespondingSourceObject: {fileID: 2842250536631221379, guid: 641164259b813d34294850d53c142537, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1885982832}
-    - targetCorrespondingSourceObject: {fileID: 2842250536631221379, guid: 641164259b813d34294850d53c142537, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 366208510}
-    - targetCorrespondingSourceObject: {fileID: 2842250536631221379, guid: 641164259b813d34294850d53c142537, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1115068605}
-    - targetCorrespondingSourceObject: {fileID: 2842250536631221379, guid: 641164259b813d34294850d53c142537, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2016578818}
-    - targetCorrespondingSourceObject: {fileID: 2842250536631221379, guid: 641164259b813d34294850d53c142537, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1338964104}
-    - targetCorrespondingSourceObject: {fileID: 2842250536631221379, guid: 641164259b813d34294850d53c142537, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1393204603}
     - targetCorrespondingSourceObject: {fileID: 2842250536631221379, guid: 641164259b813d34294850d53c142537, type: 3}
       insertIndex: -1
       addedObject: {fileID: 545998926}
@@ -1546,18 +1525,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7648133985108132996, guid: 641164259b813d34294850d53c142537, type: 3}
       insertIndex: -1
       addedObject: {fileID: 800777403}
-    - targetCorrespondingSourceObject: {fileID: 6386835193040783485, guid: 641164259b813d34294850d53c142537, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1987842618}
     - targetCorrespondingSourceObject: {fileID: 1344925611099720224, guid: 641164259b813d34294850d53c142537, type: 3}
       insertIndex: -1
       addedObject: {fileID: 448027081}
-    - targetCorrespondingSourceObject: {fileID: 668717537134663744, guid: 641164259b813d34294850d53c142537, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1693485443}
-    - targetCorrespondingSourceObject: {fileID: 5121621701701418470, guid: 641164259b813d34294850d53c142537, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2089159647}
   m_SourcePrefab: {fileID: 100100000, guid: 641164259b813d34294850d53c142537, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -1567,5 +1537,4 @@ SceneRoots:
   - {fileID: 1510771654}
   - {fileID: 4712063033802494626}
   - {fileID: 1091894438}
-  - {fileID: 2098427025}
-  - {fileID: 1254676398}
+  - {fileID: 985021246}
