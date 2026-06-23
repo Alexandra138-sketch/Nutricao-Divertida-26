@@ -69,6 +69,9 @@ EditorBuildSettings:
     path: Assets/Scenes/quizz escolha 4.unity
     guid: dbc72e02df9b5f644a1ed151aa37a621
   - enabled: 1
+    path: Assets/Scenes/quizz 1.unity
+    guid: 47fbbc3bfc2a4864c820a13a97d791ba
+  - enabled: 1
     path: Assets/Scenes/escolhas fim.unity
     guid: 2bbd3ded7f31f9c4a8a91226aa330c60
   - enabled: 1
