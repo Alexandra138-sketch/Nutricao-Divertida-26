@@ -32,6 +32,42 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/roda dos alimentos.unity
     guid: 292c97ad49e80724fa7fdf2e6b698cb7
+  - enabled: 1
+    path: Assets/Scenes/escolhas game.unity
+    guid: d5363352ec63b9a4783c3be02a3305bb
+  - enabled: 1
+    path: Assets/Scenes/escolhas game n1.unity
+    guid: 06ed235e06c00d5488a8b65dcc572096
+  - enabled: 1
+    path: Assets/Scenes/escolhas game n2.unity
+    guid: 86f56735b03f14147b127337223e6b73
+  - enabled: 1
+    path: Assets/Scenes/escolhas game n3.unity
+    guid: d04a404becd14df41963e6161c27780a
+  - enabled: 1
+    path: Assets/Scenes/escolhasalimentares 1.unity
+    guid: 725216532f3cadc48969f10fd404d8eb
+  - enabled: 1
+    path: Assets/Scenes/escolhasalimentares 2.unity
+    guid: 73e947a531de31f4ebdcee40ed62210f
+  - enabled: 1
+    path: Assets/Scenes/escolhasalimentares 3.unity
+    guid: 26c5c3b175aeb9546a50ced9aea02433
+  - enabled: 1
+    path: Assets/Scenes/inicio.unity
+    guid: 84740c2eea5c45e4eb38cfb0b04d878b
+  - enabled: 1
+    path: Assets/Scenes/quizz escolha 2.unity
+    guid: 572b67ddac1b14b49b86d0ed9be0501e
+  - enabled: 1
+    path: Assets/Scenes/quizz escolha 3.unity
+    guid: ac0872f6b1ae2934d98d936595ea3379
+  - enabled: 1
+    path: Assets/Scenes/quizz escolha 4.unity
+    guid: dbc72e02df9b5f644a1ed151aa37a621
+  - enabled: 1
+    path: Assets/Scenes/escolhas fim.unity
+    guid: 2bbd3ded7f31f9c4a8a91226aa330c60
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
