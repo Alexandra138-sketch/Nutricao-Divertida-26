@@ -68,6 +68,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/escolhas fim.unity
     guid: 2bbd3ded7f31f9c4a8a91226aa330c60
+  - enabled: 1
+    path: Assets/Scenes/finalquiz.unity
+    guid: 058ba8f44796e7c4f98e33913b04d484
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
