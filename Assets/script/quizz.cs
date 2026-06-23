@@ -91,19 +91,17 @@ public class responder : MonoBehaviour
     }
     else
     {
-    
             // Exibe o total de acertos (por exemplo, no Console ou em algum campo de texto)
-          Debug.Log("Total de acertos: " + acertos);
+            Debug.Log("Total de acertos: " + acertos);
 
-            // Se você precisar apenas guardar o resultado atual desta sessão (sem comparar com tentativas anteriores)
-         PlayerPrefs.SetInt("acertosUltimaPartida", (int)acertos);
+            // Marca que o quiz terminou e guarda o resultado
+            PlayerPrefs.SetInt("tipoFinalizacao", 1);
+            PlayerPrefs.SetInt("acertosUltimaPartida", (int)acertos);
+            PlayerPrefs.SetInt("totalQuestoesUltimaPartida", (int)questoes);
+            PlayerPrefs.Save();
 
             // Carrega a cena de resultado
             SceneManager.LoadScene("notaFinal");
-
         }
-
     }
 }
-
-    

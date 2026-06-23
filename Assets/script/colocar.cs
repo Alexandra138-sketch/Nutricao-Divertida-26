@@ -11,6 +11,20 @@ public class colocar : MonoBehaviour, IDropHandler
     {
         if (eventData.pointerDrag != null)
         {
+            if (gameManager == null)
+            {
+                gameManager = FindFirstObjectByType<GameManeger>();
+            }
+
+            if (gameManager != null)
+            {
+                gameManager.RegistrarMovimento();
+            }
+            else
+            {
+                Debug.LogWarning("GameManeger não encontrado no OnDrop de colocar.");
+            }
+
             Image pecaArrastada = eventData.pointerDrag.GetComponent<Image>();
             arrastar dragScript = eventData.pointerDrag.GetComponent<arrastar>();
 

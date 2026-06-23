@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 86947891}
   - component: {fileID: 86947890}
   - component: {fileID: 86947889}
+  - component: {fileID: 86947892}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -239,6 +240,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 86947887}
   m_CullTransparentMesh: 1
+--- !u!114 &86947892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86947887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0607bdc6283ed3849bb6102cbf182635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeScene
+  sceneName: 
 --- !u!1 &426625532
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,12 +573,20 @@ PrefabInstance:
       value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 448541481984807598, guid: 1771b1ecb80cecb4e9cdc0185127755f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+    - target: {fileID: 448541481984807598, guid: 1771b1ecb80cecb4e9cdc0185127755f, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4283484416
       objectReference: {fileID: 0}
     - target: {fileID: 1448814169422802842, guid: 1771b1ecb80cecb4e9cdc0185127755f, type: 3}
       propertyPath: m_text
       value: Acertaste 1 de 4 perguntas!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1448814169422802842, guid: 1771b1ecb80cecb4e9cdc0185127755f, type: 3}
+      propertyPath: m_margin.z
+      value: -4.205078
       objectReference: {fileID: 0}
     - target: {fileID: 1448814169422802842, guid: 1771b1ecb80cecb4e9cdc0185127755f, type: 3}
       propertyPath: m_fontColor.b
@@ -575,8 +597,16 @@ PrefabInstance:
       value: 0.78823537
       objectReference: {fileID: 0}
     - target: {fileID: 1448814169422802842, guid: 1771b1ecb80cecb4e9cdc0185127755f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+    - target: {fileID: 1448814169422802842, guid: 1771b1ecb80cecb4e9cdc0185127755f, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4283484416
+      objectReference: {fileID: 0}
+    - target: {fileID: 1448814169422802842, guid: 1771b1ecb80cecb4e9cdc0185127755f, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1604895025910675528, guid: 1771b1ecb80cecb4e9cdc0185127755f, type: 3}
       propertyPath: m_SizeDelta.x
@@ -676,7 +706,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5047612655117581498, guid: 1771b1ecb80cecb4e9cdc0185127755f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 330.003
+      value: 526.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 5047612655117581498, guid: 1771b1ecb80cecb4e9cdc0185127755f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 5047612655117581498, guid: 1771b1ecb80cecb4e9cdc0185127755f, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -684,7 +718,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5047612655117581498, guid: 1771b1ecb80cecb4e9cdc0185127755f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -85.95145
+      value: -91.95145
       objectReference: {fileID: 0}
     - target: {fileID: 5218068854475747796, guid: 1771b1ecb80cecb4e9cdc0185127755f, type: 3}
       propertyPath: m_Texture
@@ -761,6 +795,7 @@ GameObject:
   - component: {fileID: 811082349}
   - component: {fileID: 811082348}
   - component: {fileID: 811082347}
+  - component: {fileID: 811082350}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -870,6 +905,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811082345}
   m_CullTransparentMesh: 1
+--- !u!114 &811082350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811082345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0607bdc6283ed3849bb6102cbf182635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeScene
+  sceneName: quizz1
 --- !u!1 &1091894437
 GameObject:
   m_ObjectHideFlags: 0

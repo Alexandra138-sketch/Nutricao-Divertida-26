@@ -1931,7 +1931,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff90409fda1b53a44b69789869ef776b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  totalPecasNecessarias: 8
+  totalPecasNecessarias: 9
+  movimentos: 0
   nomeDaProximaCena: notaFinal
 --- !u!1 &1137223555
 GameObject:
