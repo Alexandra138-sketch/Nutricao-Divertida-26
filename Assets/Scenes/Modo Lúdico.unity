@@ -594,6 +594,7 @@ GameObject:
   - component: {fileID: 507114376}
   - component: {fileID: 507114375}
   - component: {fileID: 507114374}
+  - component: {fileID: 507114377}
   m_Layer: 5
   m_Name: azul
   m_TagString: Untagged
@@ -717,6 +718,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507114372}
   m_CullTransparentMesh: 1
+--- !u!114 &507114377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507114372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf79768373207a94f8f9e278931460b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverEnlarger
+  sizeDifference: 1.05
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1773,6 +1787,7 @@ GameObject:
   - component: {fileID: 1231444871}
   - component: {fileID: 1231444870}
   - component: {fileID: 1231444869}
+  - component: {fileID: 1231444872}
   m_Layer: 5
   m_Name: verde
   m_TagString: Untagged
@@ -1884,6 +1899,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1231444867}
   m_CullTransparentMesh: 1
+--- !u!114 &1231444872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231444867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf79768373207a94f8f9e278931460b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverEnlarger
+  sizeDifference: 1.05
 --- !u!1 &1302963870
 GameObject:
   m_ObjectHideFlags: 0
@@ -2467,6 +2495,7 @@ GameObject:
   - component: {fileID: 2016922589}
   - component: {fileID: 2016922588}
   - component: {fileID: 2016922587}
+  - component: {fileID: 2016922590}
   m_Layer: 5
   m_Name: laranja
   m_TagString: Untagged
@@ -2590,6 +2619,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016922585}
   m_CullTransparentMesh: 1
+--- !u!114 &2016922590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016922585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf79768373207a94f8f9e278931460b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverEnlarger
+  sizeDifference: 1.05
 --- !u!1 &2083518954
 GameObject:
   m_ObjectHideFlags: 0

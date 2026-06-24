@@ -477,6 +477,7 @@ GameObject:
   - component: {fileID: 507114376}
   - component: {fileID: 507114375}
   - component: {fileID: 507114374}
+  - component: {fileID: 507114377}
   m_Layer: 5
   m_Name: facil
   m_TagString: Untagged
@@ -549,7 +550,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 507114375}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1000517344}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: ChangeSceneAction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &507114375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -588,6 +601,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507114372}
   m_CullTransparentMesh: 1
+--- !u!114 &507114377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507114372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf79768373207a94f8f9e278931460b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverEnlarger
+  sizeDifference: 1.05
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,7 +1053,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "4x4 pe\xE7as"
+  m_text: "5x5 pe\xE7as"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1164,7 +1190,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "3x3 pe\xE7as"
+  m_text: "4x4 pe\xE7as"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1273,7 +1299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0607bdc6283ed3849bb6102cbf182635, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChangeScene
-  sceneName: 3 x 3
+  sceneName: 3x3
 --- !u!4 &1000517345
 Transform:
   m_ObjectHideFlags: 0
@@ -1570,6 +1596,7 @@ GameObject:
   - component: {fileID: 1231444871}
   - component: {fileID: 1231444870}
   - component: {fileID: 1231444869}
+  - component: {fileID: 1231444872}
   m_Layer: 5
   m_Name: medio
   m_TagString: Untagged
@@ -1643,7 +1670,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1000517344}
+      - m_Target: {fileID: 1362575662}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
         m_MethodName: ChangeSceneAction
         m_Mode: 1
@@ -1693,6 +1720,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1231444867}
   m_CullTransparentMesh: 1
+--- !u!114 &1231444872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231444867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf79768373207a94f8f9e278931460b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverEnlarger
+  sizeDifference: 1.05
 --- !u!1 &1302963870
 GameObject:
   m_ObjectHideFlags: 0
@@ -1750,7 +1790,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "2x2 pe\xE7as"
+  m_text: "3x3 pe\xE7as"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1830,6 +1870,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302963870}
   m_CullTransparentMesh: 1
+--- !u!1 &1362575661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1362575663}
+  - component: {fileID: 1362575662}
+  m_Layer: 0
+  m_Name: ChangeScene (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1362575662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362575661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0607bdc6283ed3849bb6102cbf182635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChangeScene
+  sceneName: 4x4
+--- !u!4 &1362575663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362575661}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 583.52734, y: 322.06516, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1510771651
 GameObject:
   m_ObjectHideFlags: 0
@@ -1943,8 +2028,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.944641, y: 50.952026}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 0, y: 40}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1619377545
 MonoBehaviour:
@@ -1966,7 +2051,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: 3dbbff17ba774f5468cc73cfe87095c7, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2202,6 +2287,7 @@ GameObject:
   - component: {fileID: 2016922589}
   - component: {fileID: 2016922588}
   - component: {fileID: 2016922587}
+  - component: {fileID: 2016922590}
   m_Layer: 5
   m_Name: dificil
   m_TagString: Untagged
@@ -2313,6 +2399,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016922585}
   m_CullTransparentMesh: 1
+--- !u!114 &2016922590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016922585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf79768373207a94f8f9e278931460b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HoverEnlarger
+  sizeDifference: 1.05
 --- !u!1 &2120280835
 GameObject:
   m_ObjectHideFlags: 0
@@ -2414,7 +2513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0607bdc6283ed3849bb6102cbf182635, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChangeScene
-  sceneName: "Modo L\xFAdico"
+  sceneName: Menu secundario
 --- !u!4 &2121710407
 Transform:
   m_ObjectHideFlags: 0
@@ -2437,5 +2536,6 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 1510771654}
   - {fileID: 617652865}
-  - {fileID: 1000517345}
   - {fileID: 2121710407}
+  - {fileID: 1000517345}
+  - {fileID: 1362575663}
